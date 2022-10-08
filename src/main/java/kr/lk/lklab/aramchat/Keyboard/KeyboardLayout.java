@@ -1,6 +1,7 @@
-package kr.neko.sokcuri.naraechat.Keyboard;
+package kr.lk.lklab.aramchat.Keyboard;
 
-import net.minecraftforge.client.event.GuiScreenEvent;
+
+import net.minecraftforge.client.event.ScreenEvent;
 import net.minecraftforge.event.TickEvent;
 
 import java.awt.*;
@@ -11,8 +12,8 @@ public interface KeyboardLayout {
     Color getIndicatorColor();
     String getLayoutString();
 
-    void onCharTyped(GuiScreenEvent.KeyboardCharTypedEvent.Pre event);
-    void onKeyPressed(GuiScreenEvent.KeyboardKeyPressedEvent.Pre event);
+    void onCharTyped(ScreenEvent.CharacterTyped.Pre event);
+    void onKeyPressed(ScreenEvent.KeyPressed.Pre event);
     void renderTick(TickEvent.RenderTickEvent event);
 
     void cleanUp();

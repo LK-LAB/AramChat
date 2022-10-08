@@ -1,4 +1,4 @@
-package kr.neko.sokcuri.naraechat.Obfuscated;
+package kr.lk.lklab.aramchat.Obfuscated;
 
 public class ReflectionFieldInfo<O, T> {
     static public <O, T> ReflectionFieldInfo create(String name, Class<T> type, Class<O> owner, int depth) {

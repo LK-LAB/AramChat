@@ -1,9 +1,9 @@
-package kr.neko.sokcuri.naraechat.Keyboard;
+package kr.lk.lklab.aramchat.Keyboard;
 
-import kr.neko.sokcuri.naraechat.IMEIndicator;
-import kr.neko.sokcuri.naraechat.NaraeUtils;
-import kr.neko.sokcuri.naraechat.Wrapper.TextComponentWrapper;
-import net.minecraftforge.client.event.GuiScreenEvent;
+import kr.lk.lklab.aramchat.IMEIndicator;
+import kr.lk.lklab.aramchat.AramUtils;
+import kr.lk.lklab.aramchat.Wrapper.TextComponentWrapper;
+import net.minecraftforge.client.event.ScreenEvent;
 import net.minecraftforge.event.TickEvent;
 
 import java.awt.*;
@@ -37,14 +37,14 @@ public class QwertyLayout implements KeyboardLayout {
     }
 
     @Override
-    public void onCharTyped(GuiScreenEvent.KeyboardCharTypedEvent.Pre event) { }
+    public void onCharTyped(ScreenEvent.CharacterTyped.Pre event) { }
 
     @Override
-    public void onKeyPressed(GuiScreenEvent.KeyboardKeyPressedEvent.Pre event) { }
+    public void onKeyPressed(ScreenEvent.KeyPressed.Pre event) { }
 
     @Override
     public void renderTick(TickEvent.RenderTickEvent event) {
-        TextComponentWrapper comp = NaraeUtils.getTextComponent();
+        TextComponentWrapper comp = AramUtils.getTextComponent();
         if (comp == null) return;
 
         IMEIndicator.Instance.drawIMEIndicator(this);

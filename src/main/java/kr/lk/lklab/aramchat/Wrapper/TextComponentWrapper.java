@@ -1,4 +1,4 @@
-package kr.neko.sokcuri.naraechat.Wrapper;
+package kr.lk.lklab.aramchat.Wrapper;
 
 public interface TextComponentWrapper {
     Object getBaseComponent();

@@ -1,4 +1,4 @@
-package kr.neko.sokcuri.naraechat;
+package kr.lk.lklab.aramchat;
 
 import com.google.common.base.Splitter;
 

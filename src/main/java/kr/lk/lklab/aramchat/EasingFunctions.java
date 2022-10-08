@@ -1,4 +1,4 @@
-package kr.neko.sokcuri.naraechat;
+package kr.lk.lklab.aramchat;
 
 public class EasingFunctions {
     public static float easeOutQuad(float t) {
