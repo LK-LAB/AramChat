@@ -15,4 +15,4 @@
 * 폰트 변경 기능
 
 
-Forked from https://github.com/sokcuri/NaraeChat[https://github.com/sokcuri/NaraeChat]
+Forked from [https://github.com/sokcuri/NaraeChat](https://github.com/sokcuri/NaraeChat)
