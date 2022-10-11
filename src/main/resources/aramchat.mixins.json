@@ -1,10 +1,6 @@
 {
 	"package":"kr.lk.lklab.aramchat.mixin",
 	"mixins":[
-		"SharedConstantsMixin",
-		"EditBoxMixin",
-		"SignEditScreenMixin",
-		"BookEditScreenMixin"
 	],
 	"required":true
 }
